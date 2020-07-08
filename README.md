@@ -7,7 +7,7 @@ Extract Behler-Parrinello fingerprint (https://doi.org/10.1063/1.3553717) calcul
 ```
 pip install mpi4py
 git clone https://github.com/yilinyang1/Simple-NN-BP-FP.git
-cd utils
+cd Simple-NN-BP-FP/utils
 python libsymf_builder.py
 ```
 
