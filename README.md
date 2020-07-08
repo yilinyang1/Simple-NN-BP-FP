@@ -13,7 +13,7 @@ python libsymf_builder.py
 
 # Usage
 
-```
+```python
 from utils.fp_calculator import set_sym, calculate_fp
 
 # set up BP symm func parameters
