@@ -29,6 +29,7 @@ g4_lambdas = [-1.0, 1.0]
 params_set = set_sym(elements, Gs, cutoff, g2_etas=g2_etas, g2_Rses=g2_Rses, 
                      g4_etas=g4_etas, g4_zetas=g4_zetas, g4_lambdas=g4_lambdas)
                      
+# calculate fingerprint
 fp_data = calculate_fp(atoms, elements, params_set, is_mpi=False)
 fp = fp_data['x']
 dfp = fp_data['dx]
