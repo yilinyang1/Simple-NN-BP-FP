@@ -2,7 +2,7 @@
 
 Extract Behler-Parrinello fingerprint (https://doi.org/10.1063/1.3553717) calculation module written in C++ from SIMPLE-NN package (https://github.com/MDIL-SNU/SIMPLE-NN). Access this fingerprint calculation function using python.
 
-# Installation
+# Complie
 
 ```
 pip install mpi4py
