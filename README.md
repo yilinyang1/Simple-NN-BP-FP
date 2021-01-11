@@ -1,8 +1,8 @@
-# Simple-NN-BP-FP
+## Simple-NN-BP-FP
 
 Extract Behler-Parrinello fingerprint (https://doi.org/10.1063/1.3553717) calculation module written in C++ from SIMPLE-NN package (https://github.com/MDIL-SNU/SIMPLE-NN). Access this fingerprint calculation function using python.
 
-# Compile
+## Compile
 
 ```
 pip install mpi4py
@@ -11,7 +11,7 @@ cd Simple-NN-BP-FP/utils
 python libsymf_builder.py
 ```
 
-# Usage
+## Usage
 
 ```python
 from utils.fp_calculator import set_sym, calculate_fp
